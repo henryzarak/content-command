@@ -1,0 +1,20 @@
+{
+  "month": "Junio 2026",
+  "meta_seguidores": 7200,
+  "meta_vistas": 1500000,
+  "pilares": {
+    "viral": 60,
+    "puente": 30,
+    "tech": 10
+  },
+  "frecuencia_diaria": 1,
+  "horario": "10:00-12:00",
+  "metricas_actuales": {
+    "seguidores": 6700,
+    "vistas_30d": 1209663,
+    "vistas_90d": 10475978,
+    "crecimiento_90d_pct": 81246,
+    "nuevos_segs_30d": 519,
+    "alcance_no_segs_pct": 93.5
+  }
+}

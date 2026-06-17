@@ -1,0 +1,86 @@
+[
+  {
+    "id": "f1",
+    "texto": "Qué tan insoportable tengo que ser para que cuando esté callado me pregunten si me pasa algo",
+    "categoria": "antisocial",
+    "veces_usada": 1,
+    "rendimiento": "viral"
+  },
+  {
+    "id": "f2",
+    "texto": "Me encantan cuando me dicen... ¿no puedes? Bro, acabas de decir las palabras mágicas",
+    "categoria": "resiliencia",
+    "veces_usada": 1,
+    "rendimiento": "viral"
+  },
+  {
+    "id": "f3",
+    "texto": "Solo tengo 4 versiones: Hablo mucho, No hablo, Hablo solo, Me trabo al hablar",
+    "categoria": "antisocial",
+    "veces_usada": 1,
+    "rendimiento": "viral"
+  },
+  {
+    "id": "f4",
+    "texto": "No existe una sola versión de mi en la que no vea un futuro exitoso y extraordinario frente a mí. Ni una.",
+    "categoria": "motivacional",
+    "veces_usada": 1,
+    "rendimiento": "viral"
+  },
+  {
+    "id": "f5",
+    "texto": "Soy una mezcla rara de alguien que sobrepiensa todo y alguien que le vale vrga todo",
+    "categoria": "antisocial",
+    "veces_usada": 1,
+    "rendimiento": "viral"
+  },
+  {
+    "id": "f6",
+    "texto": "Nunca estuve listo para nada, simplemente soy una maldita máquina de resiliencia y aún con miedo siempre lo hice",
+    "categoria": "resiliencia",
+    "veces_usada": 1,
+    "rendimiento": "alto"
+  },
+  {
+    "id": "f7",
+    "texto": "No olvides que la brújula fue inventada antes que el reloj mecánico, porque es más importante saber hacia donde vas, que cuanto tardas en llegar",
+    "categoria": "motivacional",
+    "veces_usada": 1,
+    "rendimiento": "medio"
+  },
+  {
+    "id": "f8",
+    "texto": "Es de kbrones aceptar que primero debes organizar tu vida, cuidar tu mente, mejorar tu físico, ser más inteligente en la vida y lograr tus metas profesionales y personales para así merecer",
+    "categoria": "motivacional",
+    "veces_usada": 1,
+    "rendimiento": "alto"
+  },
+  {
+    "id": "f9",
+    "texto": "La gente cree que estoy todo el día en el teléfono. No saben que un agente de IA publica por mí mientras yo construyo 8 negocios.",
+    "categoria": "tech",
+    "veces_usada": 0,
+    "rendimiento": ""
+  },
+  {
+    "id": "f10",
+    "texto": "Mi yo de mañana ya está siendo programado por un agente esta noche.",
+    "categoria": "tech",
+    "veces_usada": 0,
+    "rendimiento": ""
+  },
+  {
+    "id": "f11",
+    "texto": "Todos publican frases motivacionales. Yo las programé para que un agente las publique por mí.",
+    "categoria": "tech",
+    "veces_usada": 0,
+    "rendimiento": ""
+  },
+  {
+    "id": "f12",
+    "texto": "El futuro no es trabajar más. Es delegar mejor.",
+    "categoria": "tech",
+    "veces_usada": 0,
+    "rendimiento": ""
+  }
+]

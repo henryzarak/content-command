@@ -1,0 +1,86 @@
+[
+  {
+    "id": "2026-06-12",
+    "date": "2026-06-12",
+    "week_day": "Jueves",
+    "texto_pantalla": "La gente cree que estoy todo el día en el teléfono.\nNo saben que un agente de IA publica por mí\nmientras yo construyo 8 negocios.",
+    "caption": "Automatizar no es flojera. Es inteligencia. 🧠\n\nMientras duermo, trabajo, o entreno — mis agentes publican, monitorean, ejecutan.\n\nEl futuro no es trabajar más. Es delegar mejor.\n\n¿Ya automatizaste algo hoy?",
+    "hashtags": [
+      "ia",
+      "automatización",
+      "agentesia",
+      "networking"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Cara seria → corte rápido a dashboard/setup",
+    "audio_sugerido": "Beat oscuro tendencia"
+  },
+  {
+    "id": "2026-06-13",
+    "date": "2026-06-13",
+    "week_day": "Viernes",
+    "texto_pantalla": "No es que sea antisocial.\nEs que aprendí a estar solo\ny me gustó demasiado.",
+    "caption": "Hay paz en la soledad que la gente no entiende.\n\nNo es tristeza. No es depresión. Es tranquilidad.\n\nY cuando aprendes a disfrutarla, dejas de buscar validación afuera.",
+    "hashtags": [
+      "soledad",
+      "crecimientopersonal",
+      "mentalidad"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Tú caminando solo, plano serio",
+    "audio_sugerido": "Trending sad/reflective"
+  },
+  {
+    "id": "2026-06-14",
+    "date": "2026-06-14",
+    "week_day": "Sábado",
+    "texto_pantalla": "Mi yo de hace un año no reconocería\n al que soy hoy.\nY mi yo de mañana ya está siendo\nprogramado por un agente esta noche.",
+    "caption": "El glow up más pesado no se ve. Se siente.\n\nHace un año no tenía agentes. No tenía sistemas. No tenía dashboards.\n\nHoy miro mi Home Lab y no puedo creer lo que construí.\n\nY apenas voy empezando.",
+    "hashtags": [
+      "glowup",
+      "ia",
+      "automatización",
+      "buildinpublic"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Split screen: tú antes vs ahora + dashboards",
+    "audio_sugerido": "Beat de superación/motivación"
+  },
+  {
+    "id": "2026-06-15",
+    "date": "2026-06-15",
+    "week_day": "Domingo",
+    "texto_pantalla": "Todos publican frases motivacionales.\nYo las programé para que un agente\nlas publique por mí.",
+    "caption": "Mientras lees esto, un agente de IA ya publicó por mí hoy.\n\nAsí tengo tiempo para construir 8 negocios, entrenar, y vivir.\n\nLa automatización no es el futuro. Es el presente.\n\nLink en bio si quieres aprender cómo.",
+    "hashtags": [
+      "ia",
+      "agentes",
+      "automatizacion",
+      "productividad"
+    ],
+    "tipo": "tech",
+    "status": "draft",
+    "hook_visual": "Dashboard de agente publicando + tú haciendo otra cosa",
+    "audio_sugerido": "Tech/futuristic beat"
+  },
+  {
+    "id": "2026-06-16",
+    "date": "2026-06-16",
+    "week_day": "Martes",
+    "texto_pantalla": "Nunca estuve listo para nada.\nSimplemente soy una maldita\nmáquina de resiliencia.\nY aún con miedo, siempre lo hice.",
+    "caption": "Nadie te prepara para lo difícil.\nNo hay curso, no hay mentor, no hay fórmula.\n\nLlega el momento y o te paralizas o avanzas.\nYo siempre avancé — con miedo, con dudas, pero avancé.\n\nNo es valentía. Es resiliencia.\nY eso sí se entrena.",
+    "hashtags": [
+      "resiliencia",
+      "mentalidad",
+      "crecimientopersonal",
+      "disciplina"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano serio caminando → corte a working shot intenso",
+    "audio_sugerido": "Beat oscuro/motivacional tendencia"
+  }
+]

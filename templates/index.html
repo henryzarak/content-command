@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content Command Center — Henry Zarak</title>
+<style>
+:root {
+  --bg: #08090a;
+  --surface: #111316;
+  --surface2: #1a1d21;
+  --border: #252830;
+  --text: #e4e4e7;
+  --text2: #9899a0;
+  --accent: #5e6ad2;
+  --accent-dim: #3d4599;
+  --green: #31A73B;
+  --red: #FA383E;
+  --amber: #F5C33B;
+  --radius: 10px;
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  font-family: var(--font);
+  background: var(--bg); color: var(--text);
+  line-height: 1.5; min-height: 100vh;
+}
+.app { display: flex; height: 100vh; }
+
+/* ── Sidebar ─────────────────────── */
+.sidebar {
+  width: 240px; background: var(--surface);
+  border-right: 1px solid var(--border);
+  display: flex; flex-direction: column; padding: 20px 0;
+  flex-shrink: 0;
+}
+.sidebar-header {
+  padding: 0 20px 20px; border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+.sidebar-header h1 { font-size: 16px; font-weight: 700; letter-spacing: -0.3px; }
+.sidebar-header .sub { font-size: 11px; color: var(--text2); margin-top: 2px; }
+.nav-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 20px; cursor: pointer; font-size: 13px;
+  color: var(--text2); border-left: 2px solid transparent;
+  transition: all 0.15s; user-select: none;
+}
+.nav-item:hover { background: var(--surface2); color: var(--text); }
+.nav-item.active { color: var(--text); border-left-color: var(--accent); background: var(--surface2); }
+.nav-item .icon { font-size: 15px; width: 20px; text-align: center; }
+.nav-item .badge { 
+  margin-left: auto; font-size: 10px; 
+  background: var(--accent); color: #fff; 
+  padding: 1px 7px; border-radius: 10px; 
+}
+
+/* ── Main ────────────────────────── */
+.main {
+  flex: 1; overflow-y: auto; padding: 28px 32px;
+  display: flex; flex-direction: column; gap: 24px;
+}
+.panel { display: none; }
+.panel.active { display: block; }
+
+/* ── Header ──────────────────────── */
+.header { display: flex; justify-content: space-between; align-items: center; }
+.header h2 { font-size: 20px; font-weight: 600; letter-spacing: -0.3px; }
+.header .meta { font-size: 12px; color: var(--text2); }
+.btn {
+  padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border);
+  background: var(--surface2); color: var(--text); cursor: pointer;
+  font-size: 12px; font-weight: 500; transition: all 0.15s;
+}
+.btn:hover { border-color: var(--accent); color: #fff; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:hover { background: var(--accent-dim); }
+.btn.small { padding: 4px 10px; font-size: 11px; }
+.btn.green { border-color: var(--green); color: var(--green); }
+.btn.green:hover { background: var(--green); color: #000; }
+
+/* ── Cards ───────────────────────── */
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 20px;
+}
+.card-header { 
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 16px; padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.card-header h3 { font-size: 14px; font-weight: 600; }
+.metric-row { display: flex; gap: 16px; flex-wrap: wrap; }
+.metric {
+  flex: 1; min-width: 120px; background: var(--surface2);
+  border-radius: 8px; padding: 14px;
+}
+.metric .label { font-size: 10px; color: var(--text2); text-transform: uppercase; letter-spacing: 0.5px; }
+.metric .value { font-size: 22px; font-weight: 700; margin-top: 4px; }
+.metric .sub { font-size: 11px; color: var(--text2); margin-top: 2px; }
+
+/* ── Copies List ─────────────────── */
+.copy-item {
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 16px; margin-bottom: 10px;
+  cursor: pointer; transition: all 0.15s;
+}
+.copy-item:hover { border-color: var(--accent); }
+.copy-item .top { display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px; }
+.copy-item .date { font-size: 11px; color: var(--text2); }
+.copy-item .tipo { 
+  font-size: 10px; padding: 2px 8px; border-radius: 10px;
+  font-weight: 500; text-transform: uppercase;
+}
+.tipo-viral { background: rgba(245,195,59,0.15); color: var(--amber); }
+.tipo-puente { background: rgba(94,106,210,0.15); color: var(--accent); }
+.tipo-tech { background: rgba(49,167,59,0.15); color: var(--green); }
+.copy-item .texto { 
+  font-size: 13px; white-space: pre-line; margin-bottom: 6px;
+  color: var(--text); line-height: 1.6;
+}
+.copy-item .caption-preview { 
+  font-size: 11px; color: var(--text2); 
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.copy-item .hashtags { 
+  display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; 
+}
+.copy-item .hashtags span {
+  font-size: 10px; color: var(--accent); 
+}
+
+/* ── Modal ───────────────────────── */
+.modal-overlay {
+  display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7);
+  z-index: 100; justify-content: center; align-items: center; padding: 20px;
+}
+.modal-overlay.show { display: flex; }
+.modal {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 12px; width: 100%; max-width: 650px; max-height: 90vh;
+  overflow-y: auto; padding: 24px;
+}
+.modal h3 { font-size: 16px; margin-bottom: 16px; }
+.modal label { 
+  font-size: 11px; color: var(--text2); text-transform: uppercase;
+  letter-spacing: 0.5px; display: block; margin-bottom: 4px; margin-top: 12px;
+}
+.modal input, .modal textarea, .modal select {
+  width: 100%; padding: 10px 12px; border-radius: 8px;
+  background: var(--surface2); border: 1px solid var(--border);
+  color: var(--text); font-size: 13px; font-family: var(--font);
+}
+.modal textarea { min-height: 80px; resize: vertical; line-height: 1.6; }
+.modal .actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 20px; }
+
+/* ── Calendar ────────────────────── */
+.calendar { display: flex; gap: 10px; flex-wrap: wrap; }
+.cal-day {
+  flex: 1; min-width: 120px; background: var(--surface2);
+  border: 1px solid var(--border); border-radius: 8px; padding: 12px;
+  text-align: center;
+}
+.cal-day.today { border-color: var(--accent); }
+.cal-day .dow { font-size: 10px; color: var(--text2); text-transform: uppercase; }
+.cal-day .dom { font-size: 22px; font-weight: 700; margin: 4px 0; }
+.cal-day .copy-dot { 
+  width: 8px; height: 8px; border-radius: 50%; display: inline-block;
+  margin: 2px;
+}
+.dot-viral { background: var(--amber); }
+.dot-puente { background: var(--accent); }
+.dot-tech { background: var(--green); }
+
+/* ── Strategy ────────────────────── */
+.pilar-bar { margin-bottom: 16px; }
+.pilar-bar .label { font-size: 11px; display: flex; justify-content: space-between; margin-bottom: 4px; }
+.pilar-bar .track { 
+  height: 6px; background: var(--surface2); border-radius: 3px; overflow: hidden;
+}
+.pilar-bar .fill { height: 100%; border-radius: 3px; transition: width 0.3s; }
+.fill-viral { background: var(--amber); }
+.fill-puente { background: var(--accent); }
+.fill-tech { background: var(--green); }
+
+/* ── Frases bank ─────────────────── */
+.frase-item {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 14px; background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 8px; margin-bottom: 6px;
+}
+.frase-item .txt { font-size: 13px; flex: 1; }
+.frase-item .cat {
+  font-size: 10px; padding: 2px 8px; border-radius: 10px;
+  margin: 0 8px; white-space: nowrap;
+}
+
+/* ── Responsive ──────────────────── */
+@media (max-width: 768px) {
+  .app { flex-direction: column; }
+  .sidebar { 
+    width: 100%; height: auto; flex-direction: row; 
+    padding: 8px; overflow-x: auto; border-right: none; border-bottom: 1px solid var(--border);
+    gap: 4px;
+  }
+  .sidebar-header { display: none; }
+  .nav-item { 
+    padding: 8px 12px; border-left: none; border-bottom: 2px solid transparent;
+    white-space: nowrap; font-size: 11px;
+  }
+  .nav-item.active { border-left: none; border-bottom-color: var(--accent); }
+  .main { padding: 16px; }
+  .metric-row { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- Sidebar -->
+  <nav class="sidebar">
+    <div class="sidebar-header">
+      <h1>⚡ Content CMD</h1>
+      <div class="sub">@henryzarak · Puerto :8099</div>
+    </div>
+    <div class="nav-item active" data-panel="copies">
+      <span class="icon">✍️</span> Copies <span class="badge" id="badge-drafts">0</span>
+    </div>
+    <div class="nav-item" data-panel="calendario">
+      <span class="icon">📅</span> Calendario
+    </div>
+    <div class="nav-item" data-panel="analytics">
+      <span class="icon">📊</span> Analytics
+    </div>
+    <div class="nav-item" data-panel="estrategia">
+      <span class="icon">🎯</span> Estrategia
+    </div>
+    <div class="nav-item" data-panel="frases">
+      <span class="icon">📝</span> Banco Frases
+    </div>
+    <div class="nav-item" data-panel="vault">
+      <span class="icon">📋</span> Vault MD
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- ── COPIES ─────────────────────── -->
+    <div class="panel active" id="panel-copies">
+      <div class="header">
+        <div>
+          <h2>✍️ Copies</h2>
+          <span class="meta" id="copies-meta">Cargando...</span>
+        </div>
+        <button class="btn primary" onclick="newCopy()">+ Nuevo Copy</button>
+      </div>
+      <div class="card" style="padding:12px">
+        <div style="display:flex;gap:8px;margin-bottom:8px">
+          <button class="btn small" onclick="filterCopies('all')" id="f-all" style="border-color:var(--accent);color:var(--accent)">Todos</button>
+          <button class="btn small" onclick="filterCopies('viral')" id="f-viral">Virales</button>
+          <button class="btn small" onclick="filterCopies('puente')" id="f-puente">Puente</button>
+          <button class="btn small" onclick="filterCopies('tech')" id="f-tech">Tech</button>
+          <button class="btn small" onclick="filterCopies('draft')" id="f-draft">Drafts</button>
+        </div>
+        <div id="copies-list">Cargando copies...</div>
+      </div>
+    </div>
+
+    <!-- ── CALENDARIO ─────────────────── -->
+    <div class="panel" id="panel-calendario">
+      <div class="header">
+        <h2>📅 Calendario de Contenido</h2>
+        <span class="meta" id="cal-month"></span>
+      </div>
+      <div class="card">
+        <div class="calendar" id="calendar-grid"></div>
+      </div>
+    </div>
+
+    <!-- ── ANALYTICS ──────────────────── -->
+    <div class="panel" id="panel-analytics">
+      <div class="header">
+        <h2>📊 Analytics</h2>
+        <button class="btn small" onclick="loadAnalytics()">↻ Refresh</button>
+      </div>
+      <div class="metric-row">
+        <div class="metric">
+          <span class="label">Seguidores</span>
+          <span class="value">6,700</span>
+          <span class="sub">+519 este mes</span>
+        </div>
+        <div class="metric">
+          <span class="label">Vistas 30d</span>
+          <span class="value">1.2M</span>
+          <span class="sub">93.5% no-seguidores</span>
+        </div>
+        <div class="metric">
+          <span class="label">Vistas 90d</span>
+          <span class="value">10.5M</span>
+          <span class="sub">+81,246% crecimiento</span>
+        </div>
+        <div class="metric">
+          <span class="label">Alcance 30d</span>
+          <span class="value">710.9K</span>
+          <span class="sub">Cuentas alcanzadas</span>
+        </div>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <div class="card-header"><h3>Distribución de Contenido — Esta Semana</h3></div>
+        <div id="weekly-dist"></div>
+      </div>
+    </div>
+
+    <!-- ── ESTRATEGIA ─────────────────── -->
+    <div class="panel" id="panel-estrategia">
+      <div class="header"><h2>🎯 Estrategia Mensual</h2></div>
+      <div class="card">
+        <div class="card-header"><h3>Pilares de Contenido (Objetivo)</h3></div>
+        <div id="pilares-viz"></div>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <div class="card-header"><h3>Configuración</h3></div>
+        <div id="estrategia-config"></div>
+      </div>
+    </div>
+
+    <!-- ── BANCO FRASES ──────────────── -->
+    <div class="panel" id="panel-frases">
+      <div class="header">
+        <h2>📝 Banco de Frases</h2>
+        <button class="btn primary" onclick="newFrase()">+ Nueva Frase</button>
+      </div>
+      <div class="card" style="padding:12px">
+        <div style="display:flex;gap:8px;margin-bottom:8px">
+          <button class="btn small" onclick="filterFrases('all')" id="ff-all" style="border-color:var(--accent);color:var(--accent)">Todas</button>
+          <button class="btn small" onclick="filterFrases('motivacional')" id="ff-motivacional">Motivacional</button>
+          <button class="btn small" onclick="filterFrases('antisocial')" id="ff-antisocial">Antisocial</button>
+          <button class="btn small" onclick="filterFrases('resiliencia')" id="ff-resiliencia">Resiliencia</button>
+          <button class="btn small" onclick="filterFrases('tech')" id="ff-tech">Tech</button>
+        </div>
+        <div id="frases-list">Cargando...</div>
+      </div>
+    </div>
+
+    <!-- ── VAULT MD ───────────────────── -->
+    <div class="panel" id="panel-vault">
+      <div class="header">
+        <h2>📋 Vault: Marketing.md</h2>
+        <button class="btn primary" onclick="saveVault()">💾 Guardar</button>
+      </div>
+      <div class="card">
+        <textarea id="vault-editor" style="width:100%;min-height:70vh;background:var(--surface2);border:1px solid var(--border);color:var(--text);font-family:'JetBrains Mono',monospace;font-size:12px;padding:16px;border-radius:8px;line-height:1.7;resize:vertical;"></textarea>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Copy Edit Modal -->
+<div class="modal-overlay" id="copy-modal">
+  <div class="modal">
+    <h3 id="modal-title">Editar Copy</h3>
+    <label>Fecha</label>
+    <input type="date" id="edit-date">
+    <label>Día de la semana</label>
+    <select id="edit-weekday">
+      <option>Lunes</option><option>Martes</option><option>Miércoles</option>
+      <option>Jueves</option><option>Viernes</option><option>Sábado</option><option>Domingo</option>
+    </select>
+    <label>Texto en pantalla (REEL)</label>
+    <textarea id="edit-texto" rows="4" placeholder="El texto que aparece en el reel..."></textarea>
+    <label>Caption</label>
+    <textarea id="edit-caption" rows="4" placeholder="El caption del post..."></textarea>
+    <label>Hashtags (separados por coma)</label>
+    <input type="text" id="edit-hashtags" placeholder="ia, automatización, agentes">
+    <label>Tipo</label>
+    <select id="edit-tipo">
+      <option value="viral">Viral (frase)</option>
+      <option value="puente">Puente (frase + tech)</option>
+      <option value="tech">Tech (IA/agentes)</option>
+    </select>
+    <label>Estado</label>
+    <select id="edit-status">
+      <option value="draft">Draft</option>
+      <option value="approved">Approved</option>
+      <option value="published">Published</option>
+    </select>
+    <label>Hook Visual</label>
+    <input type="text" id="edit-hook" placeholder="Descripción del video...">
+    <label>Audio Sugerido</label>
+    <input type="text" id="edit-audio" placeholder="Tipo de beat...">
+    <div class="actions">
+      <button class="btn" onclick="closeModal()">Cancelar</button>
+      <button class="btn primary" onclick="saveCopy()">💾 Guardar</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State ────────────────────────────────────────
+let copies = [], frases = [], estrategia = {};
+let currentFilter = 'all', currentFraseFilter = 'all';
+let editingId = null;
+
+// ── Navigation ──────────────────────────────────
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', () => {
+    document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+    item.classList.add('active');
+    const panel = item.dataset.panel;
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('panel-' + panel).classList.add('active');
+    if (panel === 'copies') renderCopies();
+    if (panel === 'calendario') renderCalendar();
+    if (panel === 'analytics') loadAnalytics();
+    if (panel === 'estrategia') loadEstrategia();
+    if (panel === 'frases') renderFrases();
+    if (panel === 'vault') loadVault();
+  });
+});
+
+// ── API Helpers ──────────────────────────────────
+async function api(url, opts = {}) {
+  const res = await fetch(url, opts);
+  return res.json();
+}
+
+// ── COPIES ──────────────────────────────────────
+async function loadCopies() {
+  copies = await api('/api/copies');
+  renderCopies();
+}
+function renderCopies() {
+  let filtered = copies;
+  if (currentFilter === 'draft') filtered = copies.filter(c => c.status === 'draft');
+  else if (currentFilter !== 'all') filtered = copies.filter(c => c.tipo === currentFilter);
+  
+  document.getElementById('copies-meta').textContent = `${filtered.length} copies · ${copies.filter(c=>c.status==='draft').length} drafts`;
+  document.getElementById('badge-drafts').textContent = copies.filter(c => c.status === 'draft').length || '0';
+  
+  const list = document.getElementById('copies-list');
+  if (!filtered.length) { list.innerHTML = '<div style="color:var(--text2);padding:16px;text-align:center">No hay copies. Crea uno nuevo.</div>'; return; }
+  
+  list.innerHTML = filtered.map(c => `
+    <div class="copy-item" onclick="editCopy('${c.id}')">
+      <div class="top">
+        <span class="date">${c.week_day} · ${c.date} · ${c.status === 'published' ? '✅ Publicado' : c.status === 'approved' ? '👍 Aprobado' : '📝 Draft'}</span>
+        <span class="tipo tipo-${c.tipo}">${c.tipo}</span>
+      </div>
+      <div class="texto">${c.texto_pantalla}</div>
+      <div class="caption-preview">${c.caption.substring(0, 100)}...</div>
+      <div class="hashtags">${c.hashtags.map(h => `<span>#${h}</span>`).join('')}</div>
+    </div>
+  `).join('');
+}
+function filterCopies(type) {
+  currentFilter = type;
+  document.querySelectorAll('#panel-copies .btn.small').forEach(b => b.style='');
+  const btn = document.getElementById('f-' + type);
+  if (btn) { btn.style.borderColor = 'var(--accent)'; btn.style.color = 'var(--accent)'; }
+  renderCopies();
+}
+function newCopy() {
+  const today = new Date().toISOString().split('T')[0];
+  const dows = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+  editingId = null;
+  document.getElementById('modal-title').textContent = 'Nuevo Copy';
+  document.getElementById('edit-date').value = today;
+  document.getElementById('edit-weekday').value = dows[new Date().getDay()];
+  document.getElementById('edit-texto').value = '';
+  document.getElementById('edit-caption').value = '';
+  document.getElementById('edit-hashtags').value = '';
+  document.getElementById('edit-tipo').value = 'puente';
+  document.getElementById('edit-status').value = 'draft';
+  document.getElementById('edit-hook').value = '';
+  document.getElementById('edit-audio').value = '';
+  document.getElementById('copy-modal').classList.add('show');
+}
+function editCopy(id) {
+  const c = copies.find(c => c.id === id);
+  if (!c) return;
+  editingId = id;
+  document.getElementById('modal-title').textContent = 'Editar Copy';
+  document.getElementById('edit-date').value = c.date;
+  document.getElementById('edit-weekday').value = c.week_day;
+  document.getElementById('edit-texto').value = c.texto_pantalla;
+  document.getElementById('edit-caption').value = c.caption;
+  document.getElementById('edit-hashtags').value = c.hashtags.join(', ');
+  document.getElementById('edit-tipo').value = c.tipo;
+  document.getElementById('edit-status').value = c.status;
+  document.getElementById('edit-hook').value = c.hook_visual || '';
+  document.getElementById('edit-audio').value = c.audio_sugerido || '';
+  document.getElementById('copy-modal').classList.add('show');
+}
+function closeModal() { document.getElementById('copy-modal').classList.remove('show'); }
+async function saveCopy() {
+  const copy = {
+    id: editingId || document.getElementById('edit-date').value,
+    date: document.getElementById('edit-date').value,
+    week_day: document.getElementById('edit-weekday').value,
+    texto_pantalla: document.getElementById('edit-texto').value,
+    caption: document.getElementById('edit-caption').value,
+    hashtags: document.getElementById('edit-hashtags').value.split(',').map(h => h.trim()).filter(Boolean),
+    tipo: document.getElementById('edit-tipo').value,
+    status: document.getElementById('edit-status').value,
+    hook_visual: document.getElementById('edit-hook').value,
+    audio_sugerido: document.getElementById('edit-audio').value
+  };
+  await api('/api/copies', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(copy) });
+  closeModal();
+  await loadCopies();
+  await loadAnalytics();
+}
+document.getElementById('copy-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+
+// ── CALENDAR ─────────────────────────────────────
+async function renderCalendar() {
+  await loadCopies();
+  const now = new Date();
+  document.getElementById('cal-month').textContent = now.toLocaleDateString('es', {month:'long',year:'numeric'});
+  
+  // Show next 7 days
+  const days = [];
+  const dows = ['Dom','Lun','Mar','Mié','Jue','Vie','Sáb'];
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(now);
+    d.setDate(d.getDate() + i);
+    const ds = d.toISOString().split('T')[0];
+    const copy = copies.find(c => c.date === ds);
+    days.push({ date: d, ds, dow: dows[d.getDay()], dom: d.getDate(), copy, today: i === 0 });
+  }
+  
+  document.getElementById('calendar-grid').innerHTML = days.map(d => `
+    <div class="cal-day${d.today ? ' today' : ''}">
+      <div class="dow">${d.dow}</div>
+      <div class="dom">${d.dom}</div>
+      ${d.copy ? `<span class="copy-dot dot-${d.copy.tipo}" title="${d.copy.tipo}: ${d.copy.texto_pantalla.substring(0,40)}..."></span>` : '<span style="font-size:10px;color:var(--text2)">—</span>'}
+    </div>
+  `).join('');
+}
+
+// ── ANALYTICS ────────────────────────────────────
+async function loadAnalytics() {
+  const m = await api('/api/metrics');
+  document.getElementById('weekly-dist').innerHTML = `
+    <div class="pilar-bar">
+      <div class="label"><span>🔥 Viral</span><span>${m.semana_actual.viral_pct}% (${m.semana_actual.viral}/${m.semana_actual.total})</span></div>
+      <div class="track"><div class="fill fill-viral" style="width:${m.semana_actual.viral_pct}%"></div></div>
+    </div>
+    <div class="pilar-bar">
+      <div class="label"><span>🌉 Puente</span><span>${m.semana_actual.puente_pct}% (${m.semana_actual.puente}/${m.semana_actual.total})</span></div>
+      <div class="track"><div class="fill fill-puente" style="width:${m.semana_actual.puente_pct}%"></div></div>
+    </div>
+    <div class="pilar-bar">
+      <div class="label"><span>🤖 Tech</span><span>${m.semana_actual.tech_pct}% (${m.semana_actual.tech}/${m.semana_actual.total})</span></div>
+      <div class="track"><div class="fill fill-tech" style="width:${m.semana_actual.tech_pct}%"></div></div>
+    </div>
+    <div style="margin-top:12px;font-size:11px;color:var(--text2)">
+      📝 Drafts: ${m.copies_drafts} · 👍 Approved: ${m.copies_approved} · ✅ Published: ${m.copies_published}
+    </div>
+  `;
+}
+
+// ── ESTRATEGIA ───────────────────────────────────
+async function loadEstrategia() {
+  const e = await api('/api/estrategia');
+  estrategia = e;
+  
+  document.getElementById('pilares-viz').innerHTML = `
+    <div class="pilar-bar">
+      <div class="label"><span>🔥 Viral</span><span>${e.pilares.viral}%</span></div>
+      <div class="track"><div class="fill fill-viral" style="width:${e.pilares.viral}%"></div></div>
+    </div>
+    <div class="pilar-bar">
+      <div class="label"><span>🌉 Puente</span><span>${e.pilares.puente}%</span></div>
+      <div class="track"><div class="fill fill-puente" style="width:${e.pilares.puente}%"></div></div>
+    </div>
+    <div class="pilar-bar">
+      <div class="label"><span>🤖 Tech</span><span>${e.pilares.tech}%</span></div>
+      <div class="track"><div class="fill fill-tech" style="width:${e.pilares.tech}%"></div></div>
+    </div>
+  `;
+  
+  document.getElementById('estrategia-config').innerHTML = `
+    <div class="metric-row">
+      <div class="metric">
+        <span class="label">Meta Seguidores</span>
+        <span class="value">${e.meta_seguidores.toLocaleString()}</span>
+        <span class="sub">Actual: ${e.metricas_actuales.seguidores.toLocaleString()}</span>
+      </div>
+      <div class="metric">
+        <span class="label">Meta Vistas/mes</span>
+        <span class="value">${(e.meta_vistas/1000000).toFixed(1)}M</span>
+        <span class="sub">Actual 30d: ${(e.metricas_actuales.vistas_30d/1000000).toFixed(1)}M</span>
+      </div>
+      <div class="metric">
+        <span class="label">Frecuencia</span>
+        <span class="value">${e.frecuencia_diaria}x día</span>
+        <span class="sub">Horario: ${e.horario}</span>
+      </div>
+      <div class="metric">
+        <span class="label">Nuevos Segs/mes</span>
+        <span class="value">+${e.metricas_actuales.nuevos_segs_30d}</span>
+        <span class="sub">93.5% no-seguidores</span>
+      </div>
+    </div>
+  `;
+}
+
+// ── FRASES ───────────────────────────────────────
+async function loadFrases() {
+  frases = await api('/api/frases');
+  renderFrases();
+}
+function renderFrases() {
+  let filtered = frases;
+  if (currentFraseFilter !== 'all') filtered = frases.filter(f => f.categoria === currentFraseFilter);
+  
+  const list = document.getElementById('frases-list');
+  const catColors = { motivacional: 'rgba(245,195,59,0.15)', antisocial: 'rgba(250,56,62,0.15)', resiliencia: 'rgba(49,167,59,0.15)', tech: 'rgba(94,106,210,0.15)' };
+  const catText = { motivacional: 'var(--amber)', antisocial: 'var(--red)', resiliencia: 'var(--green)', tech: 'var(--accent)' };
+  
+  list.innerHTML = filtered.map(f => `
+    <div class="frase-item">
+      <span class="txt">${f.texto}</span>
+      <span class="cat" style="background:${catColors[f.categoria] || 'var(--surface)'};color:${catText[f.categoria] || 'var(--text2)'}">${f.categoria}</span>
+      ${f.rendimiento ? `<span class="cat" style="background:rgba(49,167,59,0.15);color:var(--green)">${f.rendimiento}</span>` : ''}
+      <span style="font-size:10px;color:var(--text2);margin-left:4px">×${f.veces_usada}</span>
+    </div>
+  `).join('');
+}
+function filterFrases(type) {
+  currentFraseFilter = type;
+  document.querySelectorAll('#panel-frases .btn.small').forEach(b => b.style='');
+  const btn = document.getElementById('ff-' + type);
+  if (btn) { btn.style.borderColor = 'var(--accent)'; btn.style.color = 'var(--accent)'; }
+  renderFrases();
+}
+function newFrase() {
+  const texto = prompt('Nueva frase:');
+  if (!texto) return;
+  const categoria = prompt('Categoría (motivacional/antisocial/resiliencia/tech):', 'motivacional');
+  api('/api/frases', {
+    method: 'POST', headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({ id: 'f' + Date.now(), texto, categoria: categoria || 'motivacional', veces_usada: 0, rendimiento: '' })
+  }).then(() => loadFrases());
+}
+
+// ── VAULT ────────────────────────────────────────
+async function loadVault() {
+  try {
+    const data = await api('/api/vault/marketing');
+    document.getElementById('vault-editor').value = data.content;
+  } catch(e) {
+    document.getElementById('vault-editor').value = '// No se pudo cargar el archivo del vault';
+  }
+}
+async function saveVault() {
+  const content = document.getElementById('vault-editor').value;
+  await api('/api/vault/marketing', {
+    method: 'PUT', headers: {'Content-Type':'application/json'},
+    body: JSON.stringify({ content })
+  });
+  alert('✅ Guardado en vault');
+}
+
+// ── INIT ─────────────────────────────────────────
+loadCopies();
+loadFrases();
+
+// Close modal on Escape
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+</script>
+</body>
+</html>

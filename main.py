@@ -8,6 +8,7 @@ from pydantic import BaseModel
 from datetime import date, datetime
 import json
 import os
+import sqlite3
 from pathlib import Path
 
 app = FastAPI(title="Content Command Center")
@@ -242,6 +243,92 @@ def get_metrics():
 @app.get("/")
 def index():
     return FileResponse("templates/index.html")
+
+@app.get("/library")
+def library_page():
+    return FileResponse("templates/library.html")
+
+# ── Content Library API ────────────────────────────
+MC_DB = Path("/home/hzbrain/HLabs/mission-control/data/mission_control.db")
+
+def dict_factory(cursor, row):
+    return {col[0]: row[i] for i, col in enumerate(cursor.description)}
+
+@app.get("/api/library/brands")
+def library_brands():
+    """Return all brands with content count and status stats"""
+    if not MC_DB.exists():
+        return {"brands": []}
+    conn = sqlite3.connect(str(MC_DB))
+    conn.row_factory = dict_factory
+    cur = conn.cursor()
+    cur.execute("""
+        SELECT 
+            brand,
+            COUNT(*) as total,
+            SUM(CASE WHEN status = 'published' THEN 1 ELSE 0 END) as published,
+            SUM(CASE WHEN status = 'reviewed' THEN 1 ELSE 0 END) as reviewed,
+            SUM(CASE WHEN status = 'generated' THEN 1 ELSE 0 END) as generated,
+            MAX(created_at) as last_created
+        FROM content
+        GROUP BY brand
+        ORDER BY total DESC
+    """)
+    brands = cur.fetchall()
+    conn.close()
+    return {"brands": brands}
+
+@app.get("/api/library/content")
+def library_content(
+    brand: str = None,
+    status: str = None,
+    platform: str = None,
+    limit: int = 100,
+    offset: int = 0
+):
+    """Return content items with optional filters. Deduplicates by body text."""
+    conn = sqlite3.connect(str(MC_DB))
+    conn.row_factory = dict_factory
+    cur = conn.cursor()
+    
+    where = []
+    params = []
+    if brand:
+        where.append("brand = ?")
+        params.append(brand)
+    if status:
+        where.append("status = ?")
+        params.append(status)
+    if platform:
+        where.append("platform = ?")
+        params.append(platform)
+    
+    where_clause = " AND ".join(where) if where else "1=1"
+    
+    # Deduplicate: group by body text, take latest
+    cur.execute(f"""
+        SELECT id, brand, platform, content_type, body, hashtags, status, created_at, reviewed_at, published_at
+        FROM content
+        WHERE {where_clause}
+        ORDER BY created_at DESC
+    """, params)
+    all_rows = cur.fetchall()
+    conn.close()
+    
+    # Simple dedup: same body preview = duplicate
+    seen = set()
+    deduped = []
+    for row in all_rows:
+        body_preview = row["body"][:100] if row["body"] else ""
+        key = f"{row['brand']}|{row['platform']}|{body_preview}"
+        if key not in seen:
+            seen.add(key)
+            deduped.append(row)
+    
+    total = len(deduped)
+    items = deduped[offset:offset + limit]
+    
+    return {"items": items, "total": total, "offset": offset, "limit": limit}
 
 # ── Vault file access ──────────────────────────────
 VAULT_MARKETING = Path("/opt/agents/data/hzlabs/02_HOLDING/Henry_Zarak/04_Marketing.md")

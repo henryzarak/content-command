@@ -82,5 +82,236 @@
     "status": "draft",
     "hook_visual": "Plano serio caminando → corte a working shot intenso",
     "audio_sugerido": "Beat oscuro/motivacional tendencia"
+  },
+  {
+    "id": "2026-06-17",
+    "date": "2026-06-17",
+    "week_day": "Miércoles",
+    "texto_pantalla": "Es de kbrones aceptar\nque primero debes organizar tu vida.\nYo delegué lo repetitivo a agentes.\nAhora solo hago lo que importa.",
+    "caption": "Organizarte no es comprar una agenda ni hacer bullet journal.\n\nEs automatizar lo repetitivo para enfocarte en lo que nadie más puede hacer por ti.\n\nMis agentes publican, monitorean crypto, trackean mis marcas. Yo construyo.\n\nEl que escala no es el que más trabaja. Es el que mejor delega.",
+    "hashtags": [
+      "ia",
+      "disciplina",
+      "automatizacion",
+      "mentalidad",
+      "agentes"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano serio mirando a cámara → corte a dashboard/setup → volver a plano serio",
+    "audio_sugerido": "Beat oscuro/motivacional tendencia (phonk o dark ambient)"
+  },
+  {
+    "id": "2026-06-18",
+    "date": "2026-06-18",
+    "week_day": "Jueves",
+    "texto_pantalla": "La gente cree que soy antisocial\nNo lo soy. Solo soy selectivo\nY descubrí que casi nadie\nvale el gasto de mi energía",
+    "caption": "No es que odie a la gente. Es que aprendí a medir mi energía como recurso no renovable.\n\nAntes quería caerle bien a todos. Ahora prefiero estar solo que bien acompañado.\n\nNo hay nada malo en ser selectivo. Es autopreservación.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "selectivo",
+      "crecimientopersonal",
+      "reflexion"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano serio mirando a cámara → corte caminando solo → corte tecleando en setup → volver a cámara con media sonrisa",
+    "audio_sugerido": "Dark phonk/ambient beat — tono serio, pausado"
+  },
+  {
+    "id": "2026-06-19",
+    "date": "2026-06-19",
+    "week_day": "Viernes",
+    "texto_pantalla": "Mientras algunos preguntan \"cómo le haces\"\nYo solo sigo construyendo en silencio\nNo hay secreto\nHay horas que nadie ve",
+    "caption": "La gente siempre quiere la fórmula, el hack, el shortcut.\n\nNo existe.\n\nLo único real son viernes como este — todos apagando, yo encendiendo dashboards. Horas que nadie ve.\n\nNo es sacrificio si te gusta más que su \"disfrutar\".",
+    "hashtags": [
+      "mentalidad",
+      "disciplina",
+      "soledad",
+      "reflexion",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano serio caminando → corte a setup con luces tenues → corte tecleando → volver a cámara",
+    "audio_sugerido": "Dark ambient/phonk beat — tono serio, pausado"
+  },
+  {
+    "id": "2026-06-20",
+    "date": "2026-06-20",
+    "week_day": "Sábado",
+    "texto_pantalla": "Soy contradictorio\nSobrepienso todo\nPero también\nme vale vrga todo",
+    "caption": "La gente no entiende cómo puedes analizar cada mínimo detalle y al mismo tiempo no darle importancia a nada.\n\nSimple: pienso para decidir, no para sufrir. Una vez que decido, lo que opinen los demás no importa.\n\nEsa mezcla me ha funcionado mejor que cualquier consejo de equilibrio que haya escuchado.",
+    "hashtags": [
+      "mentalidad",
+      "reflexion",
+      "soledad",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano serio pensativo mirando a cámara → corte rápido a working/tecleando sin preocupación → volver a cámara con expresión de me vale",
+    "audio_sugerido": "Dark ambient/phonk — tono pausado, reflexivo"
+  },
+  {
+    "id": "2026-06-21",
+    "date": "2026-06-21",
+    "week_day": "Domingo",
+    "texto_pantalla": "No uso los domingos para descansar\nUso los domingos para que\nel resto de la semana\ntrabaje sola",
+    "caption": "No uso los domingos para descansar.\nUso los domingos para que el resto de la semana no necesite descansar.\n\nMientras la gente planea su lunes con estrés, yo programo mis agentes para que ejecuten mientras entreno, como, o no hago nada.\n\nAutomatizar no es flojera. Es jugar 2 turnos adelante.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "mentalidad",
+      "domingo",
+      "agentes"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano serio en setup con luces tenues domingo → corte rapido a task dashboard con agents running → volver a camara plano cerrado",
+    "audio_sugerido": "Dark ambient/chill beat — tono domingo reflexivo con peso"
+  },
+  {
+    "id": "2026-06-22",
+    "date": "2026-06-22",
+    "week_day": "Lunes",
+    "texto_pantalla": "El lunes no es el peor día.\nEs el día donde recuerdas\nque no todos van a lograrlo.",
+    "caption": "El lunes es el filtro más honesto.\n\nLos que hablan de cambiar, los que hablan de emprender, los que dicen \"voy a\" — los lunes se quitan las máscaras.\n\nYo no odio los lunes. Los uso para construir mientras los demás se quejan.\n\nNo es sacrificio. Es selección natural.",
+    "hashtags": [
+      "mentalidad",
+      "lunes",
+      "disciplina",
+      "crecimientopersonal",
+      "reflexion"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano serio mirando a cámara (serio, seco) → corte caminando solo con actitud → corte rápido a setup con dashboards encendidos → volver a plano cerrado con mirada intensa, sin sonrisa",
+    "audio_sugerido": "Dark phonk beat — tendencia, ritmo pesado, transiciones marcadas"
+  },
+  {
+    "id": "2026-06-23",
+    "date": "2026-06-23",
+    "week_day": "Martes",
+    "texto_pantalla": "¿No puedes?\nAcabas de soltar\nlas palabras mágicas",
+    "caption": "Tres palabras bastan para encenderme: \"no puedes\".\nNo es berrinche ni egocentrismo. Es que aprendí que el \"no\" de otros siempre fue mi mejor combustible.\n\nNo necesito que crean en mí. Solo necesito que duden.",
+    "hashtags": [
+      "mentalidad",
+      "resiliencia",
+      "disciplina",
+      "reflexion"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado, mirada seria → levantar ceja al oír \"no puedes\" → corte a working shot intenso (tecleando/construyendo) → volver a plano cerrado con media sonrisa de satisfacción",
+    "audio_sugerido": "Dark phonk beat con subida de intensidad al llegar a \"palabras mágicas\""
+  },
+  {
+    "id": "2026-06-24",
+    "date": "2026-06-24",
+    "week_day": "Miércoles",
+    "texto_pantalla": "Mientras tú duermes,\ntus sueños esperan.\nMientras yo duermo,\nmis agentes construyen.",
+    "caption": "No es un flex. Es un hecho.\n\nTengo 2 servidores en mi Home Lab que nunca apago. Agentes monitoreando crypto, publicando contenido, trackeando marcas. 24/7.\n\nMientras la gente dice \"no tengo tiempo\", yo construí un sistema que trabaja aunque yo no esté.\n\nAutomatizar no es opcional. Es la diferencia entre soñar y construir.\n\nLink en bio si quieres armar el tuyo.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "agentesia",
+      "buildinpublic",
+      "mentalidad"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara serio → corte a setup con dashboards nocturnos encendidos → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado con mirada intensa, sin sonrisa",
+    "audio_sugerido": "Dark phonk beat — tensión que sube en \"mis agentes construyen\" — transición marcada"
+  },
+  {
+    "id": "2026-06-25",
+    "date": "2026-06-25",
+    "week_day": "Jueves",
+    "texto_pantalla": "Mientras otros preguntan cómo me va\nyo miro 4 dashboards en vivo\nCrypto. Brands. Agents. Control\nNo pregunto. Mido.",
+    "caption": "No pregunto cómo va nada. Lo veo en vivo.\n8 negocios. 2 servidores. 4 dashboards. Un humano.\nEl resto son agentes que nunca duermen.",
+    "hashtags": [
+      "ia",
+      "dashboards",
+      "buildinpublic",
+      "agentes",
+      "trading"
+    ],
+    "tipo": "tech",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara serio → corte rápido swipe por 4 dashboards (Mission Control :8090 → Crypto :8091 → Brands :8092 → ORIXEN :8093) cada uno 0.5s → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado con afirmación lenta: 'No pregunto. Mido.'",
+    "audio_sugerido": "Tech/electronic beat oscuro con glitch transitions — ritmo sube con cada cambio de dashboard"
+  },
+  {
+    "id": "2026-06-26",
+    "date": "2026-06-26",
+    "week_day": "Viernes",
+    "texto_pantalla": "Viernes en la noche\ny no voy a ningún lado\nNo es porque no pueda\nEs porque elegí estar aquí",
+    "caption": "Todos los viernes la misma presión: salir, \"disfrutar\", hacer como que la semana fue increíble.\n\nYo prefiero la verdad de mi setup. Mis dashboards. Mi silencio. Mi paz.\n\nNo es que no sepa divertirme. Es que aprendí que divertirse no siempre significa ruido, gente y alcohol. A veces significa construir en silencio mientras el mundo \"disfruta\".\n\nY honestamente — no lo cambiaría por nada.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "disciplina",
+      "reflexion",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara serio → corte a reloj marcando viernes por la noche → corte a setup tenue con dashboards encendidos → corte a servidores Dell+Lenovo con LEDs parpadeando → volver a plano cerrado con expresión de paz/convicción",
+    "audio_sugerido": "Dark phonk/ambient beat — tono serio, reflexivo, pausado"
+  },
+  {
+    "id": "2026-06-27",
+    "date": "2026-06-27",
+    "week_day": "Sábado",
+    "texto_pantalla": "Tengo 4 modos de existir:\nHablo mucho, no hablo,\nhablo solo, o me trabo.\nNo hay punto medio",
+    "caption": "No tengo punto medio. Soy o apagado o demasiado.\n\nLa gente cree que soy inconsistente. La verdad es que siempre soy el mismo — solo que no siempre muestro la misma versión.\n\nY está bien. No todos tienen que entender cómo funciona tu cabeza.\n\nLos que se quedan, se quedan porque entienden sin que les expliques.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "reflexion",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano serio mirando a cámara → gestos con manos enumerando los 4 modos → corte caminando solo en la calle (día nublado) → volver a plano cerrado con expresión de paz/aceptación",
+    "audio_sugerido": "Dark ambient phonk — tono pausado, reflexivo, ritmo lento"
+  },
+  {
+    "id": "2026-06-28",
+    "date": "2026-06-28",
+    "week_day": "Domingo",
+    "texto_pantalla": "No es que trabaje los domingos\nEs que prefiero programar hoy\npara no tener que pensar mañana",
+    "caption": "La diferencia entre estar ocupado y ser productivo: uno apaga el cerebro, el otro lo libera.\n\nProgramar domingo es invertir 2 horas para que los siguientes 6 días trabajen solos. Eso es automatizar — no para hacer más, sino para hacer menos, mejor.\n\nLink en bio si quieres programar tu semana sin mover un dedo.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "productividad",
+      "domingo",
+      "mentalidad"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara sereno → corte a setup domingo con luz natural tenue → corte rápido a dashboard de n8n/agentes → volver a plano cerrado con expresión de paz",
+    "audio_sugerido": "Dark ambient/chill beat — domingo reflexivo"
+  },
+  {
+    "id": "2026-06-29",
+    "date": "2026-06-29",
+    "week_day": "Lunes",
+    "texto_pantalla": "No existe una versión de mí\nen la que no logre lo que\nme propongo.\nNi una sola.",
+    "caption": "No es arrogancia. Es certeza construida con horas que nadie vio.\n\nLlevo años construyendo en silencio — aprendí a confiar en el proceso, no en el resultado inmediato. No es que no tenga miedo. Es que el miedo simplemente no está contemplado en mis opciones.\n\nNo sé fallar porque no lo concibo. Y cuando no concibes el fracaso, el éxito es cuestión de tiempo, no de suerte.",
+    "hashtags": [
+      "mentalidad",
+      "resiliencia",
+      "disciplina",
+      "crecimientopersonal",
+      "reflexion"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado, mirada seria a cámara → negación lenta con la cabeza → corte a setup con dashboards encendidos (luces tenues, amanecer) → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado, mirada fija, sin sonrisa",
+    "audio_sugerido": "Dark phonk beat — ritmo pesado con subida de intensidad al llegar a \"Ni una sola\" — transiciones marcadas"
   }
 ]

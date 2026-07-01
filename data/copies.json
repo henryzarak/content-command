@@ -313,5 +313,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado, mirada seria a cámara → negación lenta con la cabeza → corte a setup con dashboards encendidos (luces tenues, amanecer) → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado, mirada fija, sin sonrisa",
     "audio_sugerido": "Dark phonk beat — ritmo pesado con subida de intensidad al llegar a \"Ni una sola\" — transiciones marcadas"
+  },
+  {
+    "id": "2026-06-30",
+    "date": "2026-06-30",
+    "week_day": "Martes",
+    "texto_pantalla": "Qué tan insoportable tengo que ser\npara que cuando esté callado\nme pregunten si me pasa algo",
+    "caption": "La gente está tan acostumbrada a mi ruido que mi silencio se vuelve alarma.\n\nNo es que me pase algo. Es que aprendí a estar cómodo en él.\n\nY la incomodidad que les genera... no es mi problema.",
+    "hashtags": [
+      "antisocial",
+      "soledad",
+      "mentalidad",
+      "reflexion",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con expresión seria → micro-corte a plano del rostro sin hablar (silencio incómodo) → corte a alguien acercándose y preguntando (off camera) → volver a plano cerrado con media sonrisa seca y mirada fija → fade lento",
+    "audio_sugerido": "Dark ambient / phonk — tono seco, reflexivo, con silencios marcados que acompañen la frase"
   }
 ]

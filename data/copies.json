@@ -331,5 +331,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión seria → micro-corte a plano del rostro sin hablar (silencio incómodo) → corte a alguien acercándose y preguntando (off camera) → volver a plano cerrado con media sonrisa seca y mirada fija → fade lento",
     "audio_sugerido": "Dark ambient / phonk — tono seco, reflexivo, con silencios marcados que acompañen la frase"
+  },
+  {
+    "id": "2026-07-01",
+    "date": "2026-07-01",
+    "week_day": "Miércoles",
+    "texto_pantalla": "Nuevo mes.\nMismas reglas.\nMismos agentes\ntrabajando a las 3am.",
+    "caption": "La gente publica \"nuevo mes, nueva energía\" como si el calendario moviera algo.\n\nYo no espero al 1ro. No espero al lunes. No espero al \"momento perfecto\".\n\nMis agentes ejecutan el 1, el 15, el 31. A las 3am también.\n\nEl mes no cambia nada. Ellos tampoco se detienen.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "agentesia",
+      "mentalidad",
+      "productividad"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con cara seca → corte rápido a calendario marcando 1 de julio → corte a dashboard con agentes corriendo 24/7 → volver a plano cerrado con afirmación: \"Ellos tampoco se detienen.\"",
+    "audio_sugerido": "Dark phonk beat — tono seco, ritmo pesado, con subida sutil en \"a las 3am\""
   }
 ]

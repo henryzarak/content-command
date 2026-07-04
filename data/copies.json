@@ -349,5 +349,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con cara seca → corte rápido a calendario marcando 1 de julio → corte a dashboard con agentes corriendo 24/7 → volver a plano cerrado con afirmación: \"Ellos tampoco se detienen.\"",
     "audio_sugerido": "Dark phonk beat — tono seco, ritmo pesado, con subida sutil en \"a las 3am\""
+  },
+  {
+    "id": "2026-07-03",
+    "date": "2026-07-03",
+    "week_day": "Viernes",
+    "texto_pantalla": "No estoy desaparecido\nEstoy construyendo una vida\nque no tenga que explicar\na nadie",
+    "caption": "A veces alejarte no es perderte. Es dejar de gastar energía explicando lo que estás construyendo.\n\nViernes y muchos buscan ruido. Yo prefiero silencio, setup encendido y cero testigos.\n\nEl resultado hablará cuando tenga que hablar.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "disciplina",
+      "reflexion",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara serio → corte a celular con mensajes sin responder → corte a setup nocturno encendido → volver a cámara sin sonrisa",
+    "audio_sugerido": "Dark phonk/ambient beat — viernes nocturno, lento, con bajo pesado"
   }
 ]

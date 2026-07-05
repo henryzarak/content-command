@@ -367,5 +367,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara serio → corte a celular con mensajes sin responder → corte a setup nocturno encendido → volver a cámara sin sonrisa",
     "audio_sugerido": "Dark phonk/ambient beat — viernes nocturno, lento, con bajo pesado"
+  },
+  {
+    "id": "2026-07-04",
+    "date": "2026-07-04",
+    "week_day": "Sábado",
+    "texto_pantalla": "Sábado en silencio\nNo estoy descansando\nEstoy dejando que mis agentes\nhagan el ruido por mí",
+    "caption": "No todos los sábados son para desaparecer en ruido.\n\nA veces el plan más pesado es quedarte callado, prender el setup y dejar que n8n, FastAPI y tus agentes hagan lo repetitivo por ti.\n\nYo no quiero estar ocupado. Quiero que el sistema trabaje aunque yo no hable.\n\nLink en bio si quieres empezar a automatizar el tuyo.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "agentesia",
+      "productividad",
+      "mentalidad"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado en silencio → corte a setup sábado con dashboards encendidos → corte breve a flujo de n8n/agentes corriendo → volver a cámara sin decir nada",
+    "audio_sugerido": "Dark ambient/chill phonk — lento, nocturno, con bajo suave"
   }
 ]

@@ -385,5 +385,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado en silencio → corte a setup sábado con dashboards encendidos → corte breve a flujo de n8n/agentes corriendo → volver a cámara sin decir nada",
     "audio_sugerido": "Dark ambient/chill phonk — lento, nocturno, con bajo suave"
+  },
+  {
+    "id": "2026-07-05",
+    "date": "2026-07-05",
+    "week_day": "Domingo",
+    "texto_pantalla": "Domingo en silencio\nNo estoy huyendo de nadie\nSolo estoy recuperando\nenergía que no pienso regalar",
+    "caption": "Hay domingos donde no quiero hablar, salir, ni explicar nada.\n\nNo es tristeza. Es mantenimiento. Apago el ruido para volver a mí.\n\nLa paz también se construye dejando de regalar energía a quien no la merece.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "reflexion",
+      "crecimientopersonal",
+      "resiliencia"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado en silencio mirando a cámara → corte caminando solo con luz de domingo → celular boca abajo/sin notificaciones → volver a cámara con expresión tranquila",
+    "audio_sugerido": "Dark ambient/chill phonk — lento, reflexivo, bajo suave"
   }
 ]

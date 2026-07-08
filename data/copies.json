@@ -403,5 +403,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado en silencio mirando a cámara → corte caminando solo con luz de domingo → celular boca abajo/sin notificaciones → volver a cámara con expresión tranquila",
     "audio_sugerido": "Dark ambient/chill phonk — lento, reflexivo, bajo suave"
+  },
+  {
+    "id": "2026-07-07",
+    "date": "2026-07-07",
+    "week_day": "Martes",
+    "texto_pantalla": "Primero aprende hacia dónde vas\nLuego preocúpate\npor cuánto tardas\nen llegar",
+    "caption": "La brújula llegó antes que el reloj por algo.\n\nLa gente vive midiendo tiempo, edad, prisa, presión. Yo prefiero saber dirección.\n\nSi el camino es mío, me vale vrga cuánto tarde.",
+    "hashtags": [
+      "mentalidad",
+      "resiliencia",
+      "disciplina",
+      "reflexion",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara → corte a reloj avanzando rápido → corte caminando solo → volver a cámara con mirada firme",
+    "audio_sugerido": "Dark ambient/phonk beat — lento al inicio, subida sutil en la tercera línea"
   }
 ]

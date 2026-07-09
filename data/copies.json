@@ -421,5 +421,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara → corte a reloj avanzando rápido → corte caminando solo → volver a cámara con mirada firme",
     "audio_sugerido": "Dark ambient/phonk beat — lento al inicio, subida sutil en la tercera línea"
+  },
+  {
+    "id": "2026-07-08",
+    "date": "2026-07-08",
+    "week_day": "Miércoles",
+    "texto_pantalla": "La paz no llegó\ncuando dejé de trabajar\nLlegó cuando mis sistemas\nempezaron a hacerlo por mí",
+    "caption": "No quiero estar ocupado. Quiero estar libre.\n\nPor eso tengo agentes monitoreando crypto, marcas y briefs mientras yo decido qué merece mi energía.\n\nAutomatizar no es escapar del trabajo. Es dejar de ser esclavo de lo repetitivo.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "agentesia",
+      "productividad",
+      "mentalidad"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado serio → corte a Mission Control/Crypto dashboard → corte a setup en silencio → volver a cámara sin sonrisa",
+    "audio_sugerido": "Dark ambient/phonk beat — lento, con bajo limpio y transición suave en 'sistemas'"
   }
 ]

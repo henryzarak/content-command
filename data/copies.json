@@ -439,5 +439,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado serio → corte a Mission Control/Crypto dashboard → corte a setup en silencio → volver a cámara sin sonrisa",
     "audio_sugerido": "Dark ambient/phonk beat — lento, con bajo limpio y transición suave en 'sistemas'"
+  },
+  {
+    "id": "2026-07-09",
+    "date": "2026-07-09",
+    "week_day": "Jueves",
+    "texto_pantalla": "Lo siento no paga renta\nLas excusas no construyen\nY el \"mañana\" es el mayor\nasesino de sueños",
+    "caption": "La gente espera el momento perfecto para empezar. Espera sentirse lista, espera tener todo resuelto.\n\nYo empecé con lo que tenía, donde estaba, sin tener idea de lo que hacía. Sin mentor, sin plan, sin garantías.\n\nNo es talento ni suerte. Es terquedad de no aceptar que \"no puedo\" es una respuesta válida.",
+    "hashtags": [
+      "mentalidad",
+      "disciplina",
+      "resiliencia",
+      "reflexion",
+      "accion"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con expresión seria → corte rápido a tecleando en setup con dashboards encendidos → volver a plano cerrado con mirada firme, sin sonrisa",
+    "audio_sugerido": "Dark phonk beat — ritmo pesado, bajo marcado, transición limpia"
   }
 ]

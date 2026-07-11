@@ -457,5 +457,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión seria → corte rápido a tecleando en setup con dashboards encendidos → volver a plano cerrado con mirada firme, sin sonrisa",
     "audio_sugerido": "Dark phonk beat — ritmo pesado, bajo marcado, transición limpia"
+  },
+  {
+    "id": "2026-07-10",
+    "date": "2026-07-10",
+    "week_day": "Viernes",
+    "texto_pantalla": "Viernes en la noche\ntodos preguntan mis planes\nYo abro mi dashboard\ny veo a mis agentes ejecutar",
+    "caption": "No es que no sepa divertirme. Es que aprendí que hay algo mejor que salir un viernes: tener un sistema que trabaja aunque yo decida no mover un dedo.\n\nMis agentes publican, monitorean, trackean — mientras yo estoy donde quiero estar. Sin jefe, sin horario, sin tener que explicarle a nadie por qué no salí.\n\nAutomatizar no es esclavitud. Es la libertad de elegir cómo gastas tu tiempo.",
+    "hashtags": [
+      "ia",
+      "automatización",
+      "agentesia",
+      "viernes",
+      "buildinpublic"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara serio → corte a celular con mensajes de amigos preguntando planes → corte a setup nocturno con dashboards encendidos → corte rápido a flujo de n8n/agentes → volver a plano cerrado con media sonrisa de satisfacción",
+    "audio_sugerido": "Dark phonk beat — tono nocturno, viernes, ritmo pesado y seco"
   }
 ]

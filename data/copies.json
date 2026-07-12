@@ -475,5 +475,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara serio → corte a celular con mensajes de amigos preguntando planes → corte a setup nocturno con dashboards encendidos → corte rápido a flujo de n8n/agentes → volver a plano cerrado con media sonrisa de satisfacción",
     "audio_sugerido": "Dark phonk beat — tono nocturno, viernes, ritmo pesado y seco"
+  },
+  {
+    "id": "2026-07-11",
+    "date": "2026-07-11",
+    "week_day": "Sábado",
+    "texto_pantalla": "Sábado en la tarde\ny no tengo que estar en ningún lado\nNo es que no pueda socializar\nEs que prefiero mi paz",
+    "caption": "No es tristeza. Es decisión.\n\nAprendí que un sábado en silencio vale más que cualquier plan donde tenga que actuar. La gente cree que estar solo es castigo — yo lo veo como el lujo más grande.\n\nNo necesito salir para sentirme vivo. Necesito estar donde nadie espera nada de mí.\n\nY eso, honestamente, no tiene precio.",
+    "hashtags": [
+      "soledad",
+      "mentalidad",
+      "reflexion",
+      "sabado",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano serio mirando a cámara al inicio (sin sonrisa) → corte a ventana con luz de tarde/natural → celular boca abajo, pantalla apagada, sin notificaciones → volver a plano cerrado de cámara con expresión tranquila, afirmación sutil",
+    "audio_sugerido": "Dark ambient / lofi phonk beat — ritmo pausado, bajo suave, tono sábado reflexivo, no pesado"
   }
 ]

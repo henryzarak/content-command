@@ -493,5 +493,23 @@
     "status": "draft",
     "hook_visual": "Plano serio mirando a cámara al inicio (sin sonrisa) → corte a ventana con luz de tarde/natural → celular boca abajo, pantalla apagada, sin notificaciones → volver a plano cerrado de cámara con expresión tranquila, afirmación sutil",
     "audio_sugerido": "Dark ambient / lofi phonk beat — ritmo pausado, bajo suave, tono sábado reflexivo, no pesado"
+  },
+  {
+    "id": "2026-07-12",
+    "date": "2026-07-12",
+    "week_day": "Domingo",
+    "texto_pantalla": "Domingo\n\nMi semana ya está resuelta\n\nNo es magia\n\nSon agentes que nunca duermen",
+    "caption": "La mayoría usa domingo para estresarse por el lunes.\n\nYo uso domingo para no mover un dedo mientras mis agentes trabajan.\n\nNo es magia. Es tener 2 servidores en mi Home Lab corriendo 24/7 monitoreando crypto, marcas y contenido — mientras yo literalmente no hago nada.\n\nAutomatizar no es flojera. Es entender que tu energía vale más que tu tiempo.\n\nLink en bio si quieres armar el tuyo.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "agentesia",
+      "domingo",
+      "buildinpublic"
+    ],
+    "tipo": "tech",
+    "status": "draft",
+    "hook_visual": "Plano cerrado acabando de despertar, luz natural de domingo entrando por la ventana → corte a setup con dashboards mostrando actividad de madrugada (n8n, agents, crypto monitoring) → corte breve a servidores Dell+Lenovo con LEDs → volver a plano cerrado con expresión de paz, afirmación tranquila",
+    "audio_sugerido": "Dark ambient/chill phonk — domingo tranquilo, tono reflexivo, bajo suave, no pesado"
   }
 ]

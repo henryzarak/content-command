@@ -511,5 +511,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado acabando de despertar, luz natural de domingo entrando por la ventana → corte a setup con dashboards mostrando actividad de madrugada (n8n, agents, crypto monitoring) → corte breve a servidores Dell+Lenovo con LEDs → volver a plano cerrado con expresión de paz, afirmación tranquila",
     "audio_sugerido": "Dark ambient/chill phonk — domingo tranquilo, tono reflexivo, bajo suave, no pesado"
+  },
+  {
+    "id": "2026-07-13",
+    "date": "2026-07-13",
+    "week_day": "Lunes",
+    "texto_pantalla": "Si tu peor día es el lunes\nel problema no es el día\neres tú",
+    "caption": "La gente le echa la culpa al lunes porque es más fácil que aceptar la verdad.\n\nEl lunes no es difícil. Es el espejo de lo que no hiciste los otros 6 días.\n\nNo necesitas un nuevo comienzo cada semana. Necesitas nunca haber parado.",
+    "hashtags": [
+      "mentalidad",
+      "disciplina",
+      "reflexion",
+      "lunes",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con expresión seria, sin sonrisa → negación lenta con la cabeza → corte rápido a calendario marcando lunes → volver a plano cerrado con mirada fija a cámara al llegar a \"eres tú\"",
+    "audio_sugerido": "Dark phonk beat — ritmo pesado con subida de intensidad al llegar a la última línea, transición marcada"
   }
 ]

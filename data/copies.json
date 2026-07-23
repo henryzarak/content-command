@@ -565,5 +565,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión seria → pausa (como respondiendo una pregunta en el aire) → respuesta directa a cámara → corte rápido a setup con dashboards encendidos como respaldo silencioso → volver a cámara con afirmación",
     "audio_sugerido": "Dark phonk beat — subida de intensidad progresiva al llegar a \"Hay decisión\""
+  },
+  {
+    "id": "2026-07-22",
+    "date": "2026-07-22",
+    "week_day": "Miércoles",
+    "texto_pantalla": "La gente piensa que soy disciplinado\nNo saben que delegué lo aburrido a agentes\nY cuando no hay decisiones estúpidas\nsobra energía para lo que importa",
+    "caption": "No es disciplina. Es diseño de sistemas.\n\nLa mayoría cree que ocupo mi fuerza de voluntad en cada cosa que hago. Mentira. Mis agentes deciden lo repetitivo — publicar, monitorear, trackear marcas, crypto. Yo solo decido qué construyo.\n\nNo es más esfuerzo. Es menos fricción.\n\nCuando eliminas lo que drena tu cerebro, el enfoque sobra solo.\n\nLink en bio si quieres armar el sistema que trabaja mientras tú piensas.",
+    "hashtags": [
+      "automatizacion",
+      "agentesia",
+      "productividad",
+      "mentalidad",
+      "ia"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara serio → corte rápido a dashboard de agentes activos (n8n, monitoreo crypto, tracking brands) → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado con afirmación sutil",
+    "audio_sugerido": "Dark ambient/phonk beat — tono serio, pausado, bajo limpio, transición marcada en \"decisiones estúpidas\""
   }
 ]

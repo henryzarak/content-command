@@ -583,5 +583,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara serio → corte rápido a dashboard de agentes activos (n8n, monitoreo crypto, tracking brands) → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado con afirmación sutil",
     "audio_sugerido": "Dark ambient/phonk beat — tono serio, pausado, bajo limpio, transición marcada en \"decisiones estúpidas\""
+  },
+  {
+    "id": "2026-07-23",
+    "date": "2026-07-23",
+    "week_day": "Jueves",
+    "texto_pantalla": "La gente siempre tiene un consejo\npara mi vida\nCurioso que no tengan\nla vida que quiero yo",
+    "caption": "Todos opinan. Todos saben. Todos tienen algo que decir sobre lo que deberías hacer.\n\nPero cuando ves sus vidas, no encuentras nada que quieras copiar.\n\nNo es arrogancia. Es observar sin filtro.\n\nDejé de tomar consejos de quien no está donde quiero estar. El ruido se filtra solo cuando sabes lo que vales.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "reflexion",
+      "crecimientopersonal",
+      "resiliencia"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con expresión seria → gesto sutil de desaprobación (ceja levantada, negación leve) → corte caminando solo con actitud en espacio abierto → volver a plano cerrado con mirada intensa, sin sonrisa",
+    "audio_sugerido": "Dark phonk beat — ritmo pesado con pausa estratégica de 0.5s antes de \"la vida que quiero yo\""
   }
 ]

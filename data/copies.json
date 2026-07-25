@@ -601,5 +601,22 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión seria → gesto sutil de desaprobación (ceja levantada, negación leve) → corte caminando solo con actitud en espacio abierto → volver a plano cerrado con mirada intensa, sin sonrisa",
     "audio_sugerido": "Dark phonk beat — ritmo pesado con pausa estratégica de 0.5s antes de \"la vida que quiero yo\""
+  },
+  {
+    "id": "2026-07-24",
+    "date": "2026-07-24",
+    "week_day": "Viernes",
+    "texto_pantalla": "Dejé de confiar en mi memoria\nAhora confío en 2 servidores\nque trabajan mientras duermo\nY despierto con resultados",
+    "caption": "Tu cerebro olvida, se cansa, te distorsiona.\nMis servidores no tienen días malos.\n\nMi Home Lab (Dell + Lenovo) corre agentes de crypto, contenido y brand tracking 24/7 mientras yo duermo, entreno, o simplemente no hago nada.\n\nNo necesito mejor memoria. Necesito mejores sistemas. Y los construí.\n\nLink en bio si quieres armar el tuyo.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "agentesia",
+      "buildinpublic"
+    ],
+    "tipo": "tech",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara serio → corte a servidores Dell+Lenovo con LEDs parpadeando → corte a dashboard nocturno con agentes activos (crypto, brands, content) → volver a plano cerrado con afirmación tranquila",
+    "audio_sugerido": "Tech/electronic beat oscuro — tono reflexivo, ritmo pausado, con subida sutil en \"Y despierto con resultados\""
   }
 ]

@@ -635,5 +635,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara (expresión seria) → corte a ventana con luz de tarde/sábado → celular boca abajo, sin notificaciones → volver a cámara con expresión de paz, afirmación sutil",
     "audio_sugerido": "Dark phonk / ambient beat — tono sábado reflexivo, bajo suave, ritmo pausado"
+  },
+  {
+    "id": "2026-07-27",
+    "date": "2026-07-27",
+    "week_day": "Lunes",
+    "texto_pantalla": "Lunes\nY sigo aqui\nComo todos los putos dias\ndesde que entendi que nadie lo hara por mi",
+    "caption": "No es drama. Es conciencia.\n\nDesde que entendi que nadie va a construir lo que quiero, nadie va a salvarme, nadie va a hacer el trabajo por mi — los lunes dejaron de existir como concepto. Todos los dias son iguales cuando sabes lo que tienes que hacer.\n\nNo necesito un nuevo comienzo. Necesito no haberme detenido nunca.\n\nY no lo hice. Por eso hoy es lunes y no cambia nada.",
+    "hashtags": [
+      "mentalidad",
+      "disciplina",
+      "resiliencia",
+      "lunes",
+      "soledad"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a camara con expresion seria, luz natural de manana lunes -> corte rapido a calendario marcando Lunes 27 -> corte a setup con dashboards encendidos (actividad de finde) -> volver a plano cerrado con afirmacion sin sonrisa",
+    "audio_sugerido": "Dark phonk beat - ritmo pesado, tono seco, con pausa marcada en 'nadie lo hara por mi'"
   }
 ]

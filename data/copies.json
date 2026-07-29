@@ -653,5 +653,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a camara con expresion seria, luz natural de manana lunes -> corte rapido a calendario marcando Lunes 27 -> corte a setup con dashboards encendidos (actividad de finde) -> volver a plano cerrado con afirmacion sin sonrisa",
     "audio_sugerido": "Dark phonk beat - ritmo pesado, tono seco, con pausa marcada en 'nadie lo hara por mi'"
+  },
+  {
+    "id": "2026-07-28",
+    "date": "2026-07-28",
+    "week_day": "Martes",
+    "texto_pantalla": "Nunca supe pedir ayuda\nY honestamente\ntampoco quiero aprender\nMe va bien solo",
+    "caption": "No es orgullo mal puesto. Es que aprendi que cuando dependes de otros, dependes de su tiempo, su voluntad, su disponibilidad.\n\nYo prefiero depender de mis sistemas. Por eso tengo agentes, servidores, dashboards — no para reemplazar personas, sino para no necesitar su permiso para avanzar.\n\nA veces la mejor ayuda es la que no pides. Porque cuando la resuelves solo, aprendes a no necesitarla.",
+    "hashtags": [
+      "soledad",
+      "mentalidad",
+      "resiliencia",
+      "reflexion",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a camara serio → negacion leve con la cabeza (como respondiendo a 'por que no pides ayuda') → corte caminando solo en espacio abierto con actitud tranquila → volver a plano cerrado con mirada intensa, sin sonrisa",
+    "audio_sugerido": "Dark phonk beat — tono seco, reflexivo, ritmo pausado con bajo marcado"
   }
 ]

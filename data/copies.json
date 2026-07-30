@@ -671,5 +671,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a camara serio → negacion leve con la cabeza (como respondiendo a 'por que no pides ayuda') → corte caminando solo en espacio abierto con actitud tranquila → volver a plano cerrado con mirada intensa, sin sonrisa",
     "audio_sugerido": "Dark phonk beat — tono seco, reflexivo, ritmo pausado con bajo marcado"
+  },
+  {
+    "id": "2026-07-29",
+    "date": "2026-07-29",
+    "week_day": "Miércoles",
+    "texto_pantalla": "Miércoles a media semana\nNo estoy cansado\nMis sistemas nunca se cansan\nEllos cargan el peso",
+    "caption": "La mayoría llega a miércoles arrastrándose. El finde se ve lejos, la energía se fue.\n\nYo no siento el peso. Porque diseñé sistemas que cargan lo repetitivo mientras mi energía sube y baja — natural.\n\n2 servidores. 8 negocios. Agentes monitoreando crypto, publicando contenido, trackeando marcas. 24/7. Sin queja, sin permiso, sin pausa.\n\nNo es disciplina. Es diseño.\n\nLink en bio si quieres construir el sistema que nunca se cansa.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "agentesia",
+      "productividad",
+      "mentalidad"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con expresión seria pero firme → corte rápido a dashboards nocturnos con agentes activos → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado con afirmación tranquila, sin sonrisa",
+    "audio_sugerido": "Dark phonk beat — ritmo pesado, midweek, con subida sutil en \"nunca se cansan\""
   }
 ]

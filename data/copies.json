@@ -724,5 +724,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión seria → micro pausa (como respondiendo una pregunta) → respuesta directa a cámara sin sonrisa → corte a celular con notificaciones sin abrir → volver a plano cerrado con afirmación final",
     "audio_sugerido": "Dark phonk/ambient beat — tono sábado, pausado, reflexivo con peso"
+  },
+  {
+    "id": "2026-08-16",
+    "date": "2026-08-16",
+    "week_day": "Domingo",
+    "texto_pantalla": "Domingo\nNadie me busca\nNo es soledad\nEs diseño",
+    "caption": "La mayoría llega al domingo con la presión de tener que \"disfrutar\". Salir, socializar, hacer como que la semana fue increíble.\n\nYo llego al domingo y no cambio nada. Mis agentes trabajaron. Mis dashboards siguen encendidos. Mis negocios no se detienen porque sea domingo.\n\nY nadie me busca. No porque no exista — porque dejé de ser accesible para todos.\n\nQue son muy pocos. Y esos sí valen la pena.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "reflexion",
+      "domingo",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con expresión tranquila → corte a celular sin notificaciones → corte a setup con dashboards encendidos (domingo) → volver a plano cerrado con afirmación",
+    "audio_sugerido": "Dark ambient/phonk — tono domingo reflexivo, pausado, bajo suave"
   }
 ]

@@ -742,5 +742,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión tranquila → corte a celular sin notificaciones → corte a setup con dashboards encendidos (domingo) → volver a plano cerrado con afirmación",
     "audio_sugerido": "Dark ambient/phonk — tono domingo reflexivo, pausado, bajo suave"
+  },
+  {
+    "id": "2026-08-17",
+    "date": "2026-08-17",
+    "week_day": "Lunes",
+    "texto_pantalla": "Lunes a las 7am\nMientras otros se quejan\nmis agentes ya trabajaron\ntoda la madrugada",
+    "caption": "No me despierto con motivación. Me despierto con resultados.\n\nA las 3am mis agentes ya estaban ejecutando — crypto, contenido, monitoreo. Cuando llego al lunes, lo que otros llaman \"inicio de semana\" para mí es solo continuar.\n\nNo es disciplina. Es arquitectura.\n\nLink en bio si quieres construir el tuyo.",
+    "hashtags": [
+      "ia",
+      "automatizacion",
+      "agentesia",
+      "lunes",
+      "buildinpublic"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara serio (luz lunes mañana) → corte a dashboard mostrando actividad de madrugada → corte a servidores Dell+Lenovo → volver a cámara con afirmación: \"No es disciplina. Es arquitectura.\"",
+    "audio_sugerido": "Dark phonk beat — ritmo pesado, tono lunes, con subida sutil en \"toda la madrugada\""
   }
 ]

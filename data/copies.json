@@ -760,5 +760,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara serio (luz lunes mañana) → corte a dashboard mostrando actividad de madrugada → corte a servidores Dell+Lenovo → volver a cámara con afirmación: \"No es disciplina. Es arquitectura.\"",
     "audio_sugerido": "Dark phonk beat — ritmo pesado, tono lunes, con subida sutil en \"toda la madrugada\""
+  },
+  {
+    "id": "2026-08-18",
+    "date": "2026-08-18",
+    "week_day": "Martes",
+    "texto_pantalla": "Me dicen que debería\nsalir más\nComo si allá afuera\nhubiera algo mejor que mi paz",
+    "caption": "Todos tienen un plan para mi vida menos yo.\nSal, socializa, vive, disfruta — como si supieran qué necesito.\n\nYo ya lo sé. Silencio, enfoque y cero explicaciones.\nMi paz no necesita permiso de nadie.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "reflexion",
+      "crecimientopersonal",
+      "antisocial"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con expresión seria → negación lenta con la cabeza (como respondiendo a alguien) → corte caminando solo en calle vacía → volver a plano cerrado con afirmación final, sin sonrisa",
+    "audio_sugerido": "Dark phonk/ambient beat — tono pausado, reflexivo, bajo pesado"
   }
 ]

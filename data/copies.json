@@ -778,5 +778,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión seria → negación lenta con la cabeza (como respondiendo a alguien) → corte caminando solo en calle vacía → volver a plano cerrado con afirmación final, sin sonrisa",
     "audio_sugerido": "Dark phonk/ambient beat — tono pausado, reflexivo, bajo pesado"
+  },
+  {
+    "id": "2026-08-19",
+    "date": "2026-08-19",
+    "week_day": "Miércoles",
+    "texto_pantalla": "No soy disciplinado\nSoy un arquitecto\nDiseñé sistemas\nque no necesitan que yo esté",
+    "caption": "La gente me dice que soy disciplinado. No lo soy. Solo diseñé sistemas que ejecutan sin mi presencia.\n\nAgentes publican, monitorean crypto, revisan métricas de 8 marcas. Yo construyo lo siguiente — o descanso sin culpa.\n\nLa disciplina se agota. Los sistemas no.",
+    "hashtags": [
+      "ia",
+      "automatización",
+      "agentes",
+      "buildinpublic",
+      "mentalidad"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano serio mirando a cámara → corte rápido a dashboards/agents working → vuelta a cámara con media sonrisa de satisfacción",
+    "audio_sugerido": "Dark phonk beat — tendencia, ritmo pausado con transiciones"
   }
 ]

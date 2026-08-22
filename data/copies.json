@@ -814,5 +814,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara serio → corte a Henry solo en cuarto sin teléfono, luz natural → volver a cámara con expresión de paz/afirmación",
     "audio_sugerido": "Dark ambient/phonk — tono reflexivo, pausado, bajo suave"
+  },
+  {
+    "id": "2026-08-21",
+    "date": "2026-08-21",
+    "week_day": "Viernes",
+    "texto_pantalla": "Viernes noche\nDónde salir no es mi pregunta\nMis agentes ya ejecutan\nlo que tú harás el lunes",
+    "caption": "Mientras el mundo apaga el viernes a las 5, mis agentes siguen ejecutando. Crypto, contenido, monitoreo de marcas — todo corriendo sin que yo toque nada.\n\nNo es que no tenga vida. Es que diseñé una que funciona aunque yo decida no estar presente.\n\n2 servidores en mi Home Lab. Agentes que nunca duermen. Y un humano que elige estar donde realmente quiere estar.\n\nEl sistema está en mi perfil si quieres armar el tuyo.",
+    "hashtags": [
+      "ia",
+      "agentes",
+      "automatizacion",
+      "buildinpublic",
+      "trading"
+    ],
+    "tipo": "tech",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara serio → corte rápido a dashboard/logs de agentes ejecutando → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado con afirmación sin sonrisa",
+    "audio_sugerido": "Dark electronic beat — tono tech, ritmo marcado con transiciones en cada línea"
   }
 ]

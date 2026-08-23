@@ -832,5 +832,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara serio → corte rápido a dashboard/logs de agentes ejecutando → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado con afirmación sin sonrisa",
     "audio_sugerido": "Dark electronic beat — tono tech, ritmo marcado con transiciones en cada línea"
+  },
+  {
+    "id": "2026-08-22",
+    "date": "2026-08-22",
+    "week_day": "Sábado",
+    "texto_pantalla": "El sábado revela quién eres\nSin el trabajo que te da identidad\nSin los planes que te dan excusa\nSin nada que esconder",
+    "caption": "El sábado es el día más honesto de la semana.\nSin la excusa de \"estoy ocupado\". Sin la obligación social. Solo tú y la verdad de lo que haces cuando nadie te ve.\n\nLa mayoría necesita planes para sentirse relevante. Yo necesito silencio para seguir siendo yo.\n\nNo es antisocial. Es conocerte sin filtro.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "reflexion",
+      "sabado",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con expresión reflexiva → corte a Henry solo en su espacio (sábado, luz natural, sin celular) → volver a plano cerrado con afirmación final",
+    "audio_sugerido": "Dark ambient/phonk — tono sábado, pausado, reflexivo, bajo suave"
   }
 ]

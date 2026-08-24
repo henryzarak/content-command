@@ -850,5 +850,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión reflexiva → corte a Henry solo en su espacio (sábado, luz natural, sin celular) → volver a plano cerrado con afirmación final",
     "audio_sugerido": "Dark ambient/phonk — tono sábado, pausado, reflexivo, bajo suave"
+  },
+  {
+    "id": "2026-08-23",
+    "date": "2026-08-23",
+    "week_day": "Domingo",
+    "texto_pantalla": "No es que sea productivo los domingos\nEs que mis agentes no piden\npermiso para trabajar",
+    "caption": "Mientras otros guardan ropa y se preparan para el lunes,\nyo reviso logs de 2 servidores que trabajaron toda la noche.\n\nNo es obsesión. Es que diseñé un sistema\nque no necesita que yo esté pendiente.\n\nDomingo y ya tengo la semana resuelta.",
+    "hashtags": [
+      "ia",
+      "automatización",
+      "domingo",
+      "mentalidad",
+      "buildinpublic"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Henry solo, mirando al vacío → corte rápido a pantalla con dashboards/logs",
+    "audio_sugerido": "Beat oscuro/reflective trending"
   }
 ]

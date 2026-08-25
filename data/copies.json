@@ -868,5 +868,23 @@
     "status": "draft",
     "hook_visual": "Henry solo, mirando al vacío → corte rápido a pantalla con dashboards/logs",
     "audio_sugerido": "Beat oscuro/reflective trending"
+  },
+  {
+    "id": "2026-08-24",
+    "date": "2026-08-24",
+    "week_day": "Lunes",
+    "texto_pantalla": "Mi vida parece tranquila por fuera\nPorque por dentro ya pasé\npor todo lo que podía romperme",
+    "caption": "No es que tenga la vida resuelta.\nEs que ya me rompí tantas veces que aprendí a caminar con los pedazos.\n\nY ahora todo se ve más calmado porque ya no le tengo miedo a nada.\n\nEl lunes no me asusta. Yo ya pasé por lo peor de mí mismo.",
+    "hashtags": [
+      "mentalidad",
+      "resiliencia",
+      "crecimientopersonal",
+      "soledad",
+      "reflexion"
+    ],
+    "tipo": "viral",
+    "status": "✅ Listo para review",
+    "hook_visual": "Cara seria, primer plano → corte rápido a caminar solo por la calle",
+    "audio_sugerido": "Trending dark/reflective — algo con peso que enganche en los primeros 2 segundos"
   }
 ]

@@ -886,5 +886,23 @@
     "status": "✅ Listo para review",
     "hook_visual": "Cara seria, primer plano → corte rápido a caminar solo por la calle",
     "audio_sugerido": "Trending dark/reflective — algo con peso que enganche en los primeros 2 segundos"
+  },
+  {
+    "id": "2026-08-25",
+    "date": "2026-08-25",
+    "week_day": "Martes",
+    "texto_pantalla": "No me preguntes qué hago\nCuando no contesto\nEstoy construyendo algo\nQue va a hacer ruido",
+    "caption": "Cada vez que desaparezco, algo se está construyendo.\nNo es misterio — es estrategia.\n\nCuando los resultados lleguen, no voy a tener que explicar nada.\n\nEl silencio más ruidoso es cuando dejas de hablar y empiezas a construir.",
+    "hashtags": [
+      "mentalidad",
+      "crecimientopersonal",
+      "silencio",
+      "resiliencia",
+      "reflexion"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano serio mirando a cámara → corte oscuro a manos construyendo/typing → vuelta a cámara con media sonrisa",
+    "audio_sugerido": "Beat oscuro tendencia — phonk o dark ambient con peso, pausado"
   }
 ]

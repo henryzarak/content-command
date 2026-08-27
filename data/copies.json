@@ -904,5 +904,23 @@
     "status": "draft",
     "hook_visual": "Plano serio mirando a cámara → corte oscuro a manos construyendo/typing → vuelta a cámara con media sonrisa",
     "audio_sugerido": "Beat oscuro tendencia — phonk o dark ambient con peso, pausado"
+  },
+  {
+    "id": "2026-08-26",
+    "date": "2026-08-26",
+    "week_day": "Miércoles",
+    "texto_pantalla": "Miércoles a las 7am\nYa tengo la semana resuelta\nNo es magia\nSon agentes que trabajaron toda la noche",
+    "caption": "Llego al miércoles y ya no queda nada por resolver.\n\nMientras dormía, mis agentes ejecutaron: crypto, contenido, monitoreo de marcas. Todo en silencio.\n\nNo es magia. Es tener 2 servidores que no piden permiso para trabajar.\n\nLink en bio si quieres armar el tuyo.",
+    "hashtags": [
+      "ia",
+      "automatización",
+      "agentesia",
+      "mentalidad",
+      "buildinpublic"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado serio mirando a cámara → corte rápido a pantalla con logs/dashboards de madrugada → corte a servidores Dell+Lenovo con LEDs → volver a plano cerrado con afirmación tranquila, sin sonrisa",
+    "audio_sugerido": "Dark phonk beat — tono miércoles, ritmo pesado con subida sutil en \"toda la noche\", transiciones marcadas"
   }
 ]

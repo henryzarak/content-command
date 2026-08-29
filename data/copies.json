@@ -940,5 +940,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión seria → micro sonrisa seca (como si supiera algo) → corte caminando solo → volver a plano cerrado con afirmación final",
     "audio_sugerido": "Dark phonk beat — tono seco, pausado, con pausa marcada después de second line"
+  },
+  {
+    "id": "2026-08-28",
+    "date": "2026-08-28",
+    "week_day": "Viernes",
+    "texto_pantalla": "No es que sea antisocial\nEs que delegué el ruido\ny me quedé con la paz",
+    "caption": "La gente piensa que estoy solo porque no quiero gente.\n\nLa verdad: delegué todo el ruido a agentes que trabajan 24/7.\n\nEllos contestan, publican, monitorean.\nYo me quedo con lo que importa: construir.\n\nLa soledad no es antisocial. Es eficiencia.",
+    "hashtags": [
+      "soledad",
+      "ia",
+      "agentes",
+      "automatizacion",
+      "crecimientopersonal"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano solo/cara seria → corte rápido a agentes ejecutando",
+    "audio_sugerido": "Beat lo-fi/reflexivo, tendencia"
   }
 ]

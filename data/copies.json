@@ -958,5 +958,23 @@
     "status": "draft",
     "hook_visual": "Plano solo/cara seria → corte rápido a agentes ejecutando",
     "audio_sugerido": "Beat lo-fi/reflexivo, tendencia"
+  },
+  {
+    "id": "2026-08-29",
+    "date": "2026-08-29",
+    "week_day": "Sábado",
+    "texto_pantalla": "Hoy es sábado\nNo tengo planes con nadie\nY no es por falta de opciones\nEs por exceso de paz",
+    "caption": "Hay una diferencia entre estar solo porque nadie te busca y estar solo porque elegiste tu paz.\n\nYo elegí la segunda. Y una vez que la sientes, no la cambias por nada.\n\nMis sábados no necesitan confirmación de nadie. Ya tengo todo lo que necesito: silencio, un setup, y cero explicaciones que dar.",
+    "hashtags": [
+      "soledad",
+      "mentalidad",
+      "sabado",
+      "reflexion",
+      "crecimientopersonal"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado serio mirando a cámara → corte rápido a setup tranquilo → volver a cámara con expresión de paz, sin sonrisa",
+    "audio_sugerido": "Dark ambient/chill beat — pausado, tono reflexivo de fin de semana"
   }
 ]

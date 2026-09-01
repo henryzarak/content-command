@@ -976,5 +976,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado serio mirando a cámara → corte rápido a setup tranquilo → volver a cámara con expresión de paz, sin sonrisa",
     "audio_sugerido": "Dark ambient/chill beat — pausado, tono reflexivo de fin de semana"
+  },
+  {
+    "id": "2026-08-31",
+    "date": "2026-08-31",
+    "week_day": "Lunes",
+    "texto_pantalla": "No es que no descanse\nEs que mi descanso se ve igual que mi trabajo\nPorque esto no es rutina\nEs identidad",
+    "caption": "Cuando construyes algo que realmente te importa, la línea entre trabajo y vida se borra.\n\nNo porque trabajes 24/7. Sino porque todo lo que haces alimenta lo mismo.\n\nEl lunes es igual que el sábado. Solo existen días de construir.\n\nY eso no lo entiende la mayoría.",
+    "hashtags": [
+      "mentalidad",
+      "identidad",
+      "crecimientopersonal",
+      "soledad",
+      "construir"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano de Henry en el setup trabajando, serio → corte rápido a un dashboard → vuelta a Henry con expresión seria, mirando a cámara",
+    "audio_sugerido": "Dark phonk/ambient beat — tono serio, pausado"
   }
 ]

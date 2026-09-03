@@ -994,5 +994,23 @@
     "status": "draft",
     "hook_visual": "Plano de Henry en el setup trabajando, serio → corte rápido a un dashboard → vuelta a Henry con expresión seria, mirando a cámara",
     "audio_sugerido": "Dark phonk/ambient beat — tono serio, pausado"
+  },
+  {
+    "id": "2026-09-02",
+    "date": "2026-09-02",
+    "week_day": "Miércoles",
+    "texto_pantalla": "Dejé de competir con la gente\ncuando entendí que compiten\npor cosas que yo ni quiero",
+    "caption": "No es que sea mejor que nadie. Es que dejé de querer lo que todos quieren.\n\nMientras otros corren por atención, validación y likes — yo construyo sistemas que trabajan en silencio.\n\nLa paz no se compite. Se diseña.",
+    "hashtags": [
+      "mentalidad",
+      "soledad",
+      "crecimientopersonal",
+      "reflexion",
+      "resiliencia"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado mirando a cámara con expresión seria → micro shake de cabeza (desinterés) → corte a Henry caminando solo con actitud → volver a plano cerrado con afirmación final, sin sonrisa",
+    "audio_sugerido": "Dark phonk beat — pausado, con peso, subida de intensidad en la última línea"
   }
 ]

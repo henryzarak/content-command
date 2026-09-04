@@ -1012,5 +1012,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado mirando a cámara con expresión seria → micro shake de cabeza (desinterés) → corte a Henry caminando solo con actitud → volver a plano cerrado con afirmación final, sin sonrisa",
     "audio_sugerido": "Dark phonk beat — pausado, con peso, subida de intensidad en la última línea"
+  },
+  {
+    "id": "2026-09-03",
+    "date": "2026-09-03",
+    "week_day": "Jueves",
+    "texto_pantalla": "El futuro no es trabajar más\nEs delegar mejor\nMientras otros corren\nYo programo agentes",
+    "caption": "La gente confunde estar ocupado con ser productivo.\n\nMientras otros corren como pollos sin cabeza, yo delegué lo repetitivo a agentes de IA que ejecutan 24/7.\n\nNo es suerte. Es diseño. Y el diseño se construye con inteligencia, no con horas muertas.\n\nLink en bio si quieres automatizar el tuyo.",
+    "hashtags": [
+      "ia",
+      "automatización",
+      "agentes",
+      "productividad",
+      "buildinpublic"
+    ],
+    "tipo": "puente",
+    "status": "draft",
+    "hook_visual": "Plano cerrado serio mirando a cámara → corte rápido a dashboard con agentes ejecutando → vuelta a cámara con afirmación",
+    "audio_sugerido": "Dark phonk beat — ritmo pausado con peso, transición marcada en \"Yo programo agentes\""
   }
 ]

@@ -1030,5 +1030,23 @@
     "status": "draft",
     "hook_visual": "Plano cerrado serio mirando a cámara → corte rápido a dashboard con agentes ejecutando → vuelta a cámara con afirmación",
     "audio_sugerido": "Dark phonk beat — ritmo pausado con peso, transición marcada en \"Yo programo agentes\""
+  },
+  {
+    "id": "2026-09-04",
+    "date": "2026-09-04",
+    "week_day": "Viernes",
+    "texto_pantalla": "Crecer duele\nNo por lo que ganas\nSino por lo que dejas\nen el camino",
+    "caption": "No te avisan que crecer implica soltar gente, costumbres y versiones de ti que te gustaban.\n\nDuele? Sí. Pero duele más quedarte estancado fingiendo que todo está bien.\n\nEl viernes es buen día para aceptar lo que dejaste ir y no mirar atrás.",
+    "hashtags": [
+      "mentalidad",
+      "crecimientopersonal",
+      "resiliencia",
+      "reflexion",
+      "soledad"
+    ],
+    "tipo": "viral",
+    "status": "draft",
+    "hook_visual": "Plano cerrado serio mirando a cámara → corte caminando solo de noche (viernes) → volver a cámara con expresión reflexiva, sin sonrisa",
+    "audio_sugerido": "Dark ambient/phonk — tono reflexivo, pausado, bajo suave. Viernes nocturno."
   }
 ]
